@@ -15,7 +15,7 @@
 ]]></content>
   </entry>
   <entry>
-    <title></title>
+    <title>莫队算法</title>
     <url>/2024/04/26/%E8%8E%AB%E9%98%9F/</url>
     <content><![CDATA[<h1 id="莫队"><a href="#莫队" class="headerlink" title="莫队"></a>莫队</h1><p>莫队是分块算法的一种重要形式，它是 <strong>对询问进行分块</strong> ，即把询问离线下来，对询问序列进行分块，然后在 $O(n \sqrt n)$ 复杂度内得出所有答案。</p>
 <p>// ==TODO== 莫队题单 <a href="https://www.luogu.com.cn/training/2914#problems">https://www.luogu.com.cn/training/2914#problems</a></p>
