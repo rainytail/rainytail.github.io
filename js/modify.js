@@ -9,7 +9,8 @@ const cheerio = require('cheerio');
 function insertTopImg($) {
     const header = $('#page-header');
     if (header.length === 0) return;
-    const background = header.css('background-image');
+    // const background = header.css('background-image');
+    const background = "url('images/dark_mode.png')"
     if (!background) return;
     $('#post, #page, #archive, #tag, #category').prepend(`<div class="top-img" style="background-image: ${background};"></div>`);
 }
