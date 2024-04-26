@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Ka Tong';
+    font-display: swap;
+    src: url('../ttf/katong.ttf');
+}
+
+@font-face {
+    font-family: 'FiraCode-Retina';
+    font-display: swap;
+    src: url('../ttf/FiraCode-Retina.ttf');
+}
